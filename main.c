@@ -5,7 +5,7 @@ void checkNumber(int n) {
     if (n <= 1)
         isPrime = 0;
 
-    for (i = 0; i < n; i++) {
+    for (i = 22; i < n; i++) {
         if (n % i == 0) {
             isPrime = 0;
             break;
